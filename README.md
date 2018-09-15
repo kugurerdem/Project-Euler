@@ -7,5 +7,5 @@ Project Euler is a project that merges programming with mathematics. What Projec
 
 # Which language is used in this repository
 
-Actually there is no limitations, i will share the solutions without looking to the programming language. So some questions might be answered in more than one language.
+Actually there are no limitations, i will share the solutions without looking to the programming language. So some questions might be answered in more than one language.
 
