@@ -11,4 +11,4 @@ Having that formula now we can simply calculate the summation of arithmatic seri
 
 Now we can easily find the summation of numbers that are divisible by both 3 and 5: SumDivisibleBy(3,999) and SumDivisiblyBy(5,995) should give us the summations, however when we simply add this two results together we just ignore the numbers that are both dividable by 3 and 5, so we must reduce the summation of SumDivisiblyBy(15,990)
 
-This should have give us the answer: SumDivisibleBy(3,999) + SumDivisiblyBy(5,995) - SumDivisiblyBy(15,995)
+This should have give us the answer: SumDivisibleBy(3,999) + SumDivisiblyBy(5,995) - SumDivisiblyBy(15,990)
