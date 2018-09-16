@@ -8,10 +8,11 @@ Notice the pattern of fibonacci series: 1,'2',3,5,'8',13,21,'34'.. After '2' eve
 
 Our formula is to determine fibonacci series' any given n_th number can be formulated like this: 
 
+```
 def Fib(n):
     p = (1+math.sqrt(5)) / 2
     v = 1 - p
 
     return int( ( p**n - v**n ) / (p-v) )
-    
+ ```
     
