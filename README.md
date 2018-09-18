@@ -1,5 +1,5 @@
 # Project-Euler
-In this repository we are going to solve [project euler problems](https://projecteuler.net/archives).
+In this repository we are going to solve [project euler](https://projecteuler.net/archives) problems.
 
 # What is Project-Euler
 
