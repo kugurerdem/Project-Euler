@@ -4,13 +4,13 @@ The question asks for the lcm of 1,2,3,4......,20. So we can handle this problem
 
 '''
 
-# Function that finds greatest common divisor
+/# Function that finds greatest common divisor
 def gcd(x, y):
     while y != 0:
         (x, y) = (y, x % y)
     return x
 
-# Function that finds least common multiple
+/# Function that finds least common multiple
 def lcm(x,y):
     return (x * y) / gcd(x,y)
 
