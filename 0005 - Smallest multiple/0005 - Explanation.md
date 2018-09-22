@@ -24,4 +24,4 @@ for i in range(1,21):
 ```
 
 
-By the way i reccomend you to see [this neat proof](https://www.whitman.edu/mathematics/higher_math_online/section03.03.html) of euclidean algorithm to find gcd.
+By the way i recommend you to see [this neat proof](https://www.whitman.edu/mathematics/higher_math_online/section03.03.html) of euclidean algorithm to find gcd.
