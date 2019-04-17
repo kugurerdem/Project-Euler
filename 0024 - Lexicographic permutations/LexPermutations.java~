@@ -1,0 +1,38 @@
+public class LexPermutations{
+    
+    public static void main(String[] args){
+        String chars = "0123456789";
+        long index = 1000000;
+        
+        String answer = chars;
+        
+        for(int i = 0; i < answer.length() - 1; i++){
+            long fact = factorial(answer.length() - (i + 1) );
+
+            int replaceIndex = (int)(index / fact);
+            System.out.println( index + "/" + fact + " = " + replaceIndex);
+            index = index - (replaceIndex * fact);
+            
+            String str = " " + answer.charAt(replaceIndex + i);
+            for(int j = 0; j < answer.length(); j++){
+                str = str + (answer.charAt(j) == str.charAt(0) ? "" : answer.charAt(j));
+            }
+            
+            answer = str;
+            System.out.println( answer);
+        }
+        
+    }
+    
+    // factorial function
+    public static long factorial(int n){
+        int answer = 1;
+        
+        for(int i = 2; i <= n; i++){
+            answer *= i;
+        }
+        
+        return answer;
+    }
+    
+}
